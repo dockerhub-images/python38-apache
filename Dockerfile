@@ -9,3 +9,4 @@ RUN apt install -y python3.8
 RUN apt install -y python3-pip
 RUN a2enmod wsgi
 RUN a2enmod rewrite
+RUN ls
